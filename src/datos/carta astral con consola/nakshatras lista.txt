@@ -1,0 +1,28 @@
+1	Ashwini
+2	Bharani
+3	Krittika
+4	Rohini
+5	Mrigashira
+6	Ardra
+7	Punarvasu (dual)
+8	Pushya /Tishya
+9	Ashlesha
+10	Magha
+11	Purva Phalguni
+12	Uttara Phalguni
+13	Hasta
+14	Chitra
+15	Swati
+16	Visakha
+17	Anuradha
+18	Jyeshtha
+19	Mula
+20	Purva Ashadha
+21	Uttara Ashadha
+22	Abhijit
+23	Shravana
+24	Dhanishta
+25	Shatabhisha
+26	Purva Bhadrapada
+27	Uttara Bhadrapada
+Revati
