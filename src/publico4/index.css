@@ -1,0 +1,154 @@
+h3:first-letter{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#alerta{
+    padding-top: 30px;
+    position: fixed;
+    width: 50%;
+    font: 20;
+    text-align: center;
+    background-color: orange;
+    height: 70px;
+    vertical-align: middle;
+    margin-left: 10%;
+    clear: both;
+    z-index: 3;
+   
+}
+#button{
+    position: absolute;
+    right: 0%;
+    top: 0px;
+}
+
+#flashes{
+    padding-top: 30px;
+    position: fixed;
+    width: 50%;
+    font: 20;
+    text-align: center;
+    background-color: chartreuse;
+    height: 70px;
+    vertical-align: middle;
+    margin-left: 10%;
+    clear: both;
+    z-index: 3;
+    border-radius: 20px;
+  
+
+    
+}
+#flashestwo{
+    padding-top: 30px;
+    position: fixed;
+    width: 50%;
+    font: 20;
+    text-align: center;
+    background-color: orange;
+    height: 70px;
+    vertical-align: middle;
+    margin-left: 10%;
+    clear: both;
+    z-index: 3;
+    border-radius: 20px;
+  
+
+    
+}
+
+
+#global{
+    margin-top: 0px;
+    border-radius: 10px;
+    background: url('./img/fondo1.jpg');
+    background-repeat: no-repeat;
+    display: inline-block; 
+    background-attachment: fixed;
+    margin-left: 15%;
+    
+    min-height:2000px;
+    height: inherit;
+    border: 6px solid rgb(250, 197, 247);
+    width: 900px;
+}
+#padre{
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right:50px ;
+      
+}
+
+
+.campo{
+    background-color: khaki;
+    min-height: max-content;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+
+
+#retrogrados{
+    background-color: khaki;
+    min-height: 50px;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid white;
+    width: 700px;
+    
+    
+}
+#ascendenteMedioCielo{
+    background-color: khaki;
+    min-height: max-content;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid white;
+    
+}
+body{
+    background: url('./img/alex-gray.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 1000px;
+}
+#consulta{
+    text-align: center;
+    color: white;
+
+    
+}
+
+h1{
+    color: white;
+    font-style: italic;
+}
+#box{
+    float: right;
+    width:120px;
+    background-color: orange;
+    padding-right: 30px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 500px;
+    padding-top: 40px;
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .3s
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0
+  }
+a:link{
+    color:white;
+}
+a:visited{
+    color:rgb(235, 224, 79);
+}

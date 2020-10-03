@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--meta charset="UTF-8"-->
+    <!--meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1' -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Astral</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+
+<body >
+    
+    <h1>Carta astral</h1>
+    <!--action="/carta" method="POST"-->
+    <button id="cargarCampo">
+        cargar campo
+    </button>
+
+    <form id="astro1"  action="" method="POST" style="display: inline-block;">
+
+        <input type="text" name="nombre" id="imput1" placeholder="__Sol en signo">
+        <button  id="cargar1" type="submit">
+            cargar
+        </button>
+        <button  id="borrar1" >
+            borrar
+        </button>
+    </form>
+    <form id="astro2"  action="" method="POST" style="display: inline-block; " >
+
+        <input type="text" name="nombre" id="imput2 "placeholder="__Sol en casa">
+        <button  id="cargar2" type="submit">
+            cargar
+        </button>
+        <button  id="borrar2" >
+            borrar
+        </button>
+        
+    </form>
+    
+    <div>
+        <div style="float: left;">
+            <button id='limpiar'>
+                limpiar campo
+            </button>
+        </div>
+    <form id="aspectos"  action="" style="position:relative; left: 100px; margin-top: 10px;" >
+        
+        <div id="imput3" style="float:left">
+            <div><input class="tit" type='text' name='nombre' placeholder="__Aspectos del sol" ></input></div>
+       <!-- <div id="ref"></div>-->    
+        </div>
+        
+        <div style="position: absolute; left:280px">
+            <button  id="agregar3">
+                agregar
+            </button>
+            <button  id="borrar3" >
+                borrar
+            </button>
+            <div>
+                <button  id="enviaraspectos" type="submit">
+                    cargar aspectos
+                </button>
+                <div style="clear: both;"></div>
+            </div>
+            
+        </div>
+        <br>
+    </form>
+</div>
+
+<div style="clear: both;">
+    <h2></h2>
+    <h3 style="text-transform: Capitalize" id="titulo1"></h3> 
+    <p id="parrafo1"></p>
+    <h3 id="titulo2"></h3>
+    <p id="parrafo2"></p>
+    <h3 id="titulo3"></h3>
+    <div id="parrafo3">
+    <!--div id="aspectosp"></div-->
+    </div>
+</div>
+   
+
+    <script
+  src="https://code.jquery.com/jquery-3.5.0.min.js"
+  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+  crossorigin="anonymous"></script>
+    <script src="/app.js" charset="utf-8"></script>
+</body>
+</html>
