@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node src/index.js",
+    "start": "node src/index.js",
     "dev": "nodemon src"
   },
   "keywords": [],
@@ -12,9 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "jquery": "^3.5.0",
-    "morgan": "^1.10.0",
-    "mysql": "^2.18.1"
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"

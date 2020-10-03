@@ -2,7 +2,7 @@ const express= require('express');
 const morgan= require('morgan');
 const app= express();
 const path=require('path');
-const pool= require('./database');//aporte mio
+
 const fs=require('fs');
 //setting
  app.set('port', process.env.PORT || 3000);
