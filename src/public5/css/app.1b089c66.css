@@ -1,0 +1,181 @@
+h3:first-letter{text-transform:uppercase;
+    font-weight:700}
+   
+#alerta{padding-top:30px;
+        padding-left:20px;
+        padding-right:20px;
+        position:fixed;
+        width:50%;
+        font-size:20px;
+        text-align:center;
+        background-color:#ef7f1a;
+        height:400px;
+        vertical-align:middle;
+        margin-left:5%;
+        margin-top:60px;
+        clear:both;
+        z-index:3;
+        border:5px solid #000}
+        
+#button{position:absolute;
+    right:0;top:0}
+    
+#flashes{background-color:#7fff00}
+
+#flashes,#flashestwo{padding-top:30px;
+    position:fixed;
+    width:50%;
+    font:20;
+    text-align:center;
+    height:70px;
+    vertical-align:middle;
+    margin-left:10%;
+    clear:both;
+    z-index:3;
+    border-radius:20px}
+    
+#flashestwo{background-color:orange}
+
+#global{margin-top:0;
+    border-radius:10px;
+    background:url(../img/fondo1.02a0fb79.jpg);
+    background-repeat:no-repeat;
+    display:inline-block;
+    background-attachment:fixed;
+    /* margin-left:15%; */
+    min-height:2000px;
+    height:inherit;
+    border:6px solid #fac5f7;
+    /* width:900px; */
+
+    width:80%;
+}
+    
+#padre{
+    margin-top:40px;
+    /* padding-left:40px; */
+    /* padding-right:5px; */
+
+    padding-left:5%;
+    /* padding-right: 8%; */
+    width: 80%;
+}
+    
+.campo{background-color:#fce477;
+    min-height:-webkit-max-content;
+    min-height:-moz-max-content;
+    min-height:max-content;
+    display:inline-block;
+    padding:30px;
+    border-radius:10px;
+    border:5px solid #fff;
+    
+    width:100%;
+    margin:auto;
+}
+    
+#retrogrados{min-height:50px;width:700px}
+
+#ascendenteMedioCielo,#retrogrados{background-color:khaki;
+    display:inline-block;padding:30px;
+    border-radius:10px;
+    border:5px solid #fff}
+    
+#ascendenteMedioCielo{min-height:-webkit-max-content;
+    min-height:-moz-max-content;
+    min-height:max-content}
+    
+body{background-color:#000;
+    background:url(../img/alex-gray.9940e456.png);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    min-height:1000px;
+    margin-left: 15%;
+
+}
+
+
+    
+#consulta{text-align:center;
+    color:#fff}
+    
+h1{color:#fff;font-style:italic}
+
+#box{margin-top:20px;
+    margin-right:10px;
+    float:right;width:920px;
+    margin:auto;display:none;
+    background-color:orange;
+    padding-right:30px;
+    padding-left:20px;
+    height:250px;padding-top:40px;
+    
+    position:auto;
+
+}
+    
+.fade-enter-active,.fade-leave-active{transition:opacity .3s}
+
+.fade-enter,.fade-leave-to{opacity:0}
+
+a:link{color:#fff}
+
+a:visited{color:#ebe04f}
+
+.casa,.signo{display:inline-block}
+
+.limpiarCamp{float:left}
+
+.aspectos{
+    position:relative;
+    /* left:200px; */
+    margin-top:10px;
+
+    right: 0%;
+    float: right;
+    width: 450px;
+}
+    
+.aspectos2{float: right;
+   
+}
+
+.aspectos3{display:inline-block;
+    position:absolute;
+    /* left:218px */
+
+    right: 150px;
+}
+    
+.aspectos4{width:70px;
+    position:relative; 
+    display:inline-block}
+    
+.aspectos5{width:110px;
+    right: 200px;
+}
+
+.aspectosQN{position:relative;
+    left:200px;
+    margin-top:10px}
+    
+.aspectosQN2{float:left}
+
+.botonAspec{position:absolute;
+    left:300px}
+    
+.botonQN{position:absolute;
+    left:280px}
+    
+.retrogrado2{float:left;
+    margin-left:4px}
+    
+.aspectosR{position:relative;
+    width:295px;
+    float:left}
+    
+.botonAspecR{position:relative;
+    float:right}
+    
+.hemisferio{float:left;
+    position:relative}
